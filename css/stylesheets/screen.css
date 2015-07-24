@@ -260,6 +260,7 @@ h6 {
   float: left;
   text-align: center;
   width: 90%;
+  padding-left: 35px;
 }
 /* line 142, ../sass/_geral.sass */
 #menu ul li {
@@ -277,7 +278,7 @@ h6 {
 }
 #menu .socials {
   position: absolute;
-  right: 4%;
+  right: 1%;
   top: 22px;
 }
 
@@ -1490,3 +1491,75 @@ html {
   clear: both;
   height: 0;
 }
+/*kanji*/
+#kanji-menu {
+    position: absolute;   
+    top: -2px;     
+      z-index: 9999;
+      
+  }
+  #kanji-menu span {
+    background: url('../../imagens/sprite-top.png');
+      background-position: -40px 0;
+      width: 60px;
+      height: 60px;
+      position: absolute;         
+      text-indent: -999;  
+      cursor: pointer;  
+  }  
+  /*fim kanji*/
+  /*top logos*/
+  .top-logos-container{    
+
+  }
+  .top-logos {
+    height: 3px;
+    position: fixed;
+    z-index: 9998;
+    overflow: hidden;
+    background: #FFF;
+    left: 0;
+    width: 100%;
+  
+}
+
+.background-logos{
+  background: url('../../imagens/sprite-top.png') no-repeat;
+}
+#top-logos-ul { 
+  display: inline-block;
+  margin: 5px 0px 0px 453px;
+}
+#top-logos-ul li {
+  float: left;
+  padding-right: 10px;
+  text-indent: -9999;
+  height: 30px;
+  width: 40px;
+  border-right: 1px solid #c6c6c6;
+}
+.li-logo-1 {
+  background-position: -102px -15px;
+}
+.li-logo-2 {
+  background-position: -153px -15px;
+}
+.li-logo-3 {
+  background-position: -207px -15px;
+}
+.li-logo-4 {
+  background-position: -260px -15px;
+}
+.li-logo-5 {
+  background-position: -308px -15px;
+}
+.li-logo-6 {
+  background-position: -365px -15px;
+}
+.li-logo-7 {
+  background-position: -416px -15px;
+  border: none !important;
+}
+
+/*fim top logos*/
+

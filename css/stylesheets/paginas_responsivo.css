@@ -66,7 +66,9 @@
 
 
 @media (max-width: 880px) {	
-	
+	  .top-logos-ul {
+	  	margin: 5px 0px 0px 283px;
+	  }
 	#home .banner-home {
 	  margin: 100px auto 206px;
 	}
@@ -110,9 +112,16 @@
 }
 
 @media (max-width: 767px) {	
+	.top-logos{
+		display: none;
+	}
+	#kanji-menu {
+		display: none;
+	}
 	
 	#menu {
 		height: 38px;
+		margin-top: 0px;
 	}
 	#menu .socials {
 	  left: 2%;

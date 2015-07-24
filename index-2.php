@@ -679,8 +679,8 @@ Segunda à Sexta : <br>
 				$('#kanji-menu span').mouseover(function(event){
 		    		event.preventDefault(event);
 		    		//$('.top-logos').show(300);   				    		
-        			$(".top-logos").animate({height: '40px'});
-        			$("#menu").animate({margin: '40px 0 0 0'});    	
+        			$(".top-logos").animate({height: '35px'});
+        			$("#menu").animate({margin: '35px 0 0 0'});    	
 			});
 			$('#kanji-menu span').click(function(event){		
 		    		event.preventDefault();
