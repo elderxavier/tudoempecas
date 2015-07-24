@@ -1,0 +1,276 @@
+
+@media (max-width: 1120px) {	
+
+	#menu ul {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  text-align: center;
+	  width: 600px;
+	  float: none;
+	}
+	#login {
+	  height: auto;
+	  margin-left: 0;
+	  margin-right: -161px;
+	  margin-top: 0;
+	  position: fixed;
+	  right: 50%;
+	  top: 104px;
+	  z-index: 9999;
+	}
+	#home {   
+    	margin-top: 116px;
+    }
+    #comofunciona {
+	  background: url("../../imagens/bg-institucional.png") repeat center;
+	}
+    #comofunciona h3 {
+	  color: #001427;
+	  margin-bottom: 40px;
+	}
+	#comofunciona .content .box {
+	  float: left;
+	  height: auto;
+	  margin: 0;
+	  padding-bottom: 50px;
+	  padding-top: 50px;
+	  text-align: center;
+	  width: 100%;
+	}
+	#solicitante-box-wrapper .box-form {
+	  width: 80%;
+	  margin-left: 10%;
+	  margin-right: 10%;
+	}
+
+	#contato .box-atendimento {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+		padding: 0;
+	}
+	#contato .box-atendimento .texto {
+		width: 100%;
+	}
+	#contato .box-formulario, #contato .box {
+		display: inline-block;
+		float: none;
+	}
+	#contato .box-formulario {
+		border-right: none;
+	}
+
+}
+
+
+@media (max-width: 880px) {	
+	
+	#home .banner-home {
+	  margin: 100px auto 206px;
+	}
+	#institucional .logo {
+	  margin: -280px 3% 55px;
+	}
+	
+	#institucional .content .box, #institucional .content .box-2 {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;    	
+	}
+	#institucional .content .box-2 {
+	  margin-top: -90px;
+	  text-align: center;
+	}
+	#cadastro-usuario .box-1, #cadastro-usuario .box-2 {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+
+	}	
+	#cadastro-usuario .steps-line {
+		display: none;
+	}
+
+	#solicitante h5 {
+		line-height: 1;
+    	margin-bottom: 10px;
+	}
+	#solicitante .btn-solicitante {
+		margin-left: 0;
+		margin-right: 0;
+		float: none;
+		display: inline-block;
+	}
+	#contato .box {
+		border: none;
+	}
+
+}
+
+@media (max-width: 767px) {	
+	
+	#menu {
+		height: 38px;
+	}
+	#menu .socials {
+	  left: 2%;
+	  right: auto;
+	  top: 5px;
+	}
+	#login {
+	  margin: 0;
+	  right: 11px;
+	  top: 28px;
+	}
+	#home {   
+    	margin-top: 38px;
+    }
+    #solicitante {
+	  background: none repeat scroll 0 0 #001224;
+	  height: auto;
+	}	
+    #solicitante .motor {
+		margin-bottom: 30px; 8861-8191
+    }
+    #solicitante .box-form, #solicitante .box-form2 {
+	  width: 50%;
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+	#solicitante .box-form3 {
+	  margin-top: 91px;
+	  width: 100%;
+	}
+	#solicitante #sendSolicitacaoBtn {
+	  float: right;
+	  margin-bottom: 80px;
+	}
+	#preview01, #preview02 {
+		height: auto;
+		margin-bottom: 40px;
+	}
+	#cadastro-usuario {
+	  background: url("../../imagens/bg_cinza.png") repeat scroll center bottom #deddde;
+	}
+    #cadastro-usuario .step-1, #cadastro-usuario .step-2, #cadastro-usuario .step-3 {
+	  margin-bottom: 80px;
+	  margin-left: 4%;
+	  margin-right: 4%;
+	  width: 96%;
+	}
+	#parceiro {
+	  background: #dedcdd url("../../imagens/bg_cinza.png") repeat scroll center center;
+	  height: auto;
+	  padding-bottom: 84px;
+	}
+    #parceiro h6 {
+	  font-size: 116px;
+	  margin-top: 160px;
+	}
+	#parceiro .parceiro-selo {
+	  margin-top: 118px;
+	  width: 100%;
+	}	
+	#parceiro .parceiro-form-holder {
+	  margin-left: 0;
+	  margin-right: 0;
+	  margin-top: 0;
+	  width: 100%;
+	}
+	#contato  {
+	    background-position: center -57px;
+	}
+	#contato .box-formulario, #contato .box {
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	#contato .box-formulario input[type="text"], #contato .box-formulario textarea {
+		width:  100%;
+	}	
+}
+
+
+
+@media (max-width: 480px) {	
+	
+	#login {
+	  background: none repeat scroll 0 0 #fff;
+	  left: 3%;
+	  padding: 30px 5%;
+	  right: 3%;
+	  top: 31px;
+	  width: 84%;
+	}
+	#login .col-1, #login .col-2 {
+	  float: left;
+	  width: 100%;
+	}
+	#login .col-2 {
+	  margin-top: 48px;
+	}
+	#login .btn-cadastre {
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 30px;
+	}	
+	h1 {
+    	font-size: 70px;
+    }
+    #institucional ul li {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+    }
+
+    #solicitante h5 {
+	  font-size: 86px;
+	}	
+	#parceiro .parceiro-form-col01, #parceiro .parceiro-form-col02 {
+		width: 100%;
+	}
+	#parceiro .parceiro-selo p {
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	#parceiro h6 {
+	  font-size: 86px;
+	}
+	#parceiro .btn-parceiro {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	#solicitante-box-wrapper .form-inline input[type="text"],
+	#solicitante-box-wrapper .form-inline input[type="password"],
+	#solicitante-box-wrapper .form-inline textarea, #solicitante-box-wrapper .form-inline select, 
+	#solicitante-box-wrapper .form-group .radio-group {
+	  width: 100%;
+	}
+	#solicitante-box-wrapper .form-inline label{
+	  width: auto;
+	}
+	#solicitante-box-wrapper .box-form .btn-div {
+		display: block;
+		clear: both;
+	}
+	#solicitante .box-form, #solicitante .box-form2 {
+	  margin-top: 80px;
+	  width: 100%;
+	}
+	#solicitante .box-form .wrapper-form, #solicitante .box-form2 .wrapper-form {
+	  margin-left: 8px;
+	  margin-right: 8px;
+	}
+
+
+}
+
+

@@ -1,0 +1,1260 @@
+/* line 17, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_geral.sass */
+* {
+  outline: none;
+}
+
+/* line 4, ../sass/_geral.sass */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../sass/_geral.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 11, ../sass/_geral.sass */
+h1 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 85px;
+  color: #134f89;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 20, ../sass/_geral.sass */
+h2 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 57px;
+  color: #134f89;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 29, ../sass/_geral.sass */
+h3 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 72px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 106px;
+}
+
+/* line 39, ../sass/_geral.sass */
+h4 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 76px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 48, ../sass/_geral.sass */
+h5 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 129px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+/* line 58, ../sass/_geral.sass */
+h6 {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 171px;
+  color: #01497e;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 400px;
+}
+
+/* line 68, ../sass/_geral.sass */
+.sombra {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  display: none;
+}
+
+/* line 76, ../sass/_geral.sass */
+.alinhamento {
+  width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* line 81, ../sass/_geral.sass */
+.divide {
+  width: 100%;
+  float: left;
+}
+
+/* line 85, ../sass/_geral.sass */
+.fechar {
+  width: 35px;
+  height: 36px;
+  float: right;
+  background: url("../../imagens/fechar.png") no-repeat;
+  cursor: pointer;
+  margin-top: -60px;
+}
+
+/* line 93, ../sass/_geral.sass */
+#login {
+  width: 332px;
+  height: 80px;
+  padding: 60px 36px;
+  position: fixed;
+  background: url("../../imagens/bg-login.png") no-repeat;
+  margin: 48px 0 0 538px;
+  display: none;
+}
+/* line 102, ../sass/_geral.sass */
+#login p {
+  font-family: "kleptocracyregular";
+  font-size: 19px;
+  color: #07151b;
+  text-transform: uppercase;
+}
+/* line 109, ../sass/_geral.sass */
+#login table td {
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  color: #7e7e7e;
+}
+/* line 114, ../sass/_geral.sass */
+#login input[type="text"], #login input[type="password"] {
+  width: 158px;
+  height: 22px;
+  float: left;
+  border: 1px solid #cecece;
+  background: #f7f8f8;
+  border-radius: 5px;
+  padding: 5px;
+}
+/* line 123, ../sass/_geral.sass */
+#login .btn-cadastre {
+  width: 116px;
+  height: 33px;
+  float: right;
+  margin: -75px 0 0 0;
+  background: url("../../imagens/cadastre-se.png");
+  cursor: pointer;
+}
+
+/* line 131, ../sass/_geral.sass */
+#menu {
+  width: 100%;
+  height: 58px;
+  position: fixed;
+  background: #000b15;
+  z-index: 999;
+}
+/* line 138, ../sass/_geral.sass */
+#menu ul {
+  display: block;
+  float: left;
+}
+/* line 142, ../sass/_geral.sass */
+#menu ul li {
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  margin: 22px 38px;
+  cursor: pointer;
+}
+/* line 151, ../sass/_geral.sass */
+#menu ul li img {
+  margin: -6px 0px;
+}
+
+/* line 154, ../sass/_geral.sass */
+#home {
+  width: 100%;
+  height: 835px;
+  float: left;
+  background: url("../../imagens/bg-home.png") no-repeat top center;
+  margin-top: 58px;
+}
+/* line 161, ../sass/_geral.sass */
+#home .banner-home {
+  width: 1070px;
+  height: 534px;
+  margin: 0 auto;
+  background: url("../../imagens/banner-home.png") no-repeat;
+  margin-top: 100px;
+}
+
+/* line 168, ../sass/_geral.sass */
+#institucional {
+  width: 100%;
+  height: 824px;
+  float: left;
+  background: url("../../imagens/bg-institucional.png") no-repeat;
+}
+/* line 174, ../sass/_geral.sass */
+#institucional .logo {
+  width: 458px;
+  height: 393px;
+  margin: 0 auto;
+  background: url("../../imagens/logo.png") no-repeat;
+  margin-top: -230px;
+  margin-bottom: 55px;
+}
+/* line 182, ../sass/_geral.sass */
+#institucional ul {
+  width: 880px;
+  height: 100px;
+  margin: 0 auto;
+  background: url("../../imagens/bg-menu.png") no-repeat center bottom;
+  margin-top: 35px;
+}
+/* line 189, ../sass/_geral.sass */
+#institucional ul li {
+  font-family: "kleptocracyregular";
+  font-size: 36px;
+  color: #9e9fa0;
+  text-transform: uppercase;
+  float: left;
+  margin: 25px 17.2px;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 202, ../sass/_geral.sass */
+#institucional ul li:hover {
+  color: #134f89;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 209, ../sass/_geral.sass */
+#institucional ul .menu-institucional-ativo {
+  color: #134f89;
+}
+/* line 212, ../sass/_geral.sass */
+#institucional .content {
+  width: 1100px;
+  height: auto;
+  float: left;
+  margin: 40px 0 0 0;
+  position: absolute;
+  display: none;
+}
+/* line 220, ../sass/_geral.sass */
+#institucional .content .box {
+  width: 366.6px;
+  height: 350px;
+  float: left;
+  text-align: center;
+}
+/* line 226, ../sass/_geral.sass */
+#institucional .content .box img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+/* line 231, ../sass/_geral.sass */
+#institucional .content .box .texto {
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  color: #787878;
+  text-align: left;
+  line-height: 22px;
+  margin: 20px 0 0 0;
+  padding: 0 20px;
+}
+/* line 241, ../sass/_geral.sass */
+#institucional .content .conteudo-texto {
+  width: 800px;
+  margin: 0 auto;
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  color: #787878;
+  text-align: center;
+  line-height: 24px;
+  margin: 20px 0 0 0;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* line 253, ../sass/_geral.sass */
+#escolha {
+  width: 100%;
+  height: 900px;
+  float: left;
+  background: url("../../imagens/bg-escolha-fomularios.png") no-repeat center;
+}
+/* line 259, ../sass/_geral.sass */
+#escolha .content {
+  width: 1100px;
+  height: auto;
+  margin: 0 auto;
+}
+/* line 264, ../sass/_geral.sass */
+#escolha .content .box {
+  width: 289px;
+  height: 485px;
+  float: left;
+  margin-top: 125px;
+  margin-left: 67px;
+  text-align: center;
+}
+/* line 272, ../sass/_geral.sass */
+#escolha .content .box img {
+  display: block;
+  margin-bottom: 70px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+  cursor: pointer;
+}
+/* line 280, ../sass/_geral.sass */
+#escolha .content .box img:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+/* line 289, ../sass/_geral.sass */
+#escolha .content .box .texto {
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  line-height: 19px;
+  margin: 25px 0 0 0;
+}
+/* line 298, ../sass/_geral.sass */
+#escolha .content p {
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 73px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 265px;
+  margin-left: 52px;
+  margin-right: 52px;
+}
+
+/* line 308, ../sass/_geral.sass */
+#cadastro-usuario {
+  width: 100%;
+  height: 833px;
+  float: left;
+  background: url("../../imagens/bg-cadastro-usuario.png") no-repeat center;
+}
+/* line 314, ../sass/_geral.sass */
+#cadastro-usuario .box {
+  width: 550px;
+  height: 100px;
+  float: left;
+  margin: 80px 0;
+  padding: 10px 0;
+}
+/* line 321, ../sass/_geral.sass */
+#cadastro-usuario .box .titulo {
+  width: 100%;
+  height: auto;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 33px;
+  color: #00233e;
+  text-transform: uppercase;
+}
+/* line 330, ../sass/_geral.sass */
+#cadastro-usuario .box .sub-titulo {
+  width: 100%;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  color: #00233e;
+  margin-top: 6px;
+}
+/* line 338, ../sass/_geral.sass */
+#cadastro-usuario .box .video {
+  width: 476px;
+  height: 291px;
+  float: left;
+  margin: 10px 0;
+}
+/* line 344, ../sass/_geral.sass */
+#cadastro-usuario .box form {
+  float: left;
+  margin: 20px 0;
+}
+/* line 348, ../sass/_geral.sass */
+#cadastro-usuario .box form table {
+  width: 100%;
+  float: left;
+}
+/* line 352, ../sass/_geral.sass */
+#cadastro-usuario .box form table tr {
+  width: 100%;
+  float: left;
+  margin: 5px 0;
+}
+/* line 357, ../sass/_geral.sass */
+#cadastro-usuario .box form table tr span {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  color: #7e7e7e;
+  margin: 0 5px 0 15px;
+}
+/* line 363, ../sass/_geral.sass */
+#cadastro-usuario .box form input[type="submit"], #cadastro-usuario .box form input[type="reset"] {
+  width: 116px;
+  height: 34px;
+  border: 0;
+  float: right;
+  font-family: "kleptocracyregular";
+  font-size: 23px;
+  color: #6d6d6d;
+  padding-top: 5px;
+  margin: 40px -11px 10px 26px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: url("../../imagens/btn.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 381, ../sass/_geral.sass */
+#cadastro-usuario .box form input[type="submit"]:hover, #cadastro-usuario .box form input[type="reset"]:hover {
+  background: url("../../imagens/btn-hover.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 388, ../sass/_geral.sass */
+#cadastro-usuario .box form p {
+  width: 55px;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  color: #7e7e7e;
+  float: left;
+  text-align: right;
+}
+/* line 396, ../sass/_geral.sass */
+#cadastro-usuario .box form input[type="text"] {
+  width: 416px;
+  height: 28px;
+  float: left;
+  border-radius: 3px;
+  border: 0;
+  padding: 10px;
+  margin-left: 30px;
+}
+/* line 405, ../sass/_geral.sass */
+#cadastro-usuario .box form input[type="radio"] {
+  margin-left: 32px;
+}
+
+/* line 409, ../sass/_geral.sass */
+#solicitante {
+  width: 100%;
+  height: 983px;
+  float: left;
+  background: url("../../imagens/bg-solicitante.png") no-repeat center;
+}
+/* line 415, ../sass/_geral.sass */
+#solicitante #sol-2 {
+  position: absolute;
+  width: 1100px;
+  left: 50%;
+  margin-left: -550px;
+  z-index: 99999;
+}
+/* line 422, ../sass/_geral.sass */
+#solicitante .motor {
+  width: 607px;
+  height: 339px;
+  float: left;
+  background: url("../../imagens/motor.png") no-repeat;
+  margin: 175px 0 150px 130px;
+}
+/* line 429, ../sass/_geral.sass */
+#solicitante p {
+  width: 100%;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 33px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+/* line 438, ../sass/_geral.sass */
+#solicitante .btn-solicitante {
+  width: 235px;
+  height: 31px;
+  float: left;
+  background: #e8d60d;
+  border-radius: 6px;
+  margin: 30px 0 0 430px;
+  font-family: "kleptocracyregular";
+  font-size: 50px;
+  color: #001326;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 23px 0 0 0;
+}
+/* line 452, ../sass/_geral.sass */
+#solicitante .titulo {
+  width: 100%;
+  height: auto;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 33px;
+  color: white;
+  text-transform: uppercase;
+  margin: 160px 0 80px 114px;
+}
+/* line 462, ../sass/_geral.sass */
+#solicitante .box-form {
+  width: 550px;
+  height: auto;
+  float: left;
+}
+/* line 470, ../sass/_geral.sass */
+#solicitante .box-form table tr {
+  min-height: 37px;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  color: white;
+  text-align: right;
+}
+/* line 476, ../sass/_geral.sass */
+#solicitante .box-form table tr td {
+  padding: 0 5px 0 0;
+}
+/* line 479, ../sass/_geral.sass */
+#solicitante .box-form table p {
+  width: 100px;
+  font-family: "Myriad Pro";
+  text-align: right;
+  color: white;
+  font-size: 12px;
+  float: left;
+}
+/* line 487, ../sass/_geral.sass */
+#solicitante .box-form table span {
+  text-align: left;
+  padding-right: 10px;
+}
+/* line 491, ../sass/_geral.sass */
+#solicitante .box-form input[type="text"] {
+  width: 100%;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  padding: 10px;
+  color: #7e7e7e;
+}
+/* line 501, ../sass/_geral.sass */
+#solicitante .box-form select {
+  width: 133px;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 0 5px 0 5px;
+}
+/* line 512, ../sass/_geral.sass */
+#solicitante .box-form input[type="file"] {
+  width: 144px;
+  height: 29px;
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 520, ../sass/_geral.sass */
+#solicitante .box-form .btn-div {
+  width: 133px;
+  height: 23px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 4px 5px 0 5px;
+  cursor: pointer;
+}
+/* line 532, ../sass/_geral.sass */
+#solicitante .box-form textarea {
+  width: 440px;
+  height: 99px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 5px 5px 0 5px;
+}
+/* line 542, ../sass/_geral.sass */
+#solicitante .box-form input[type="submit"], #solicitante .box-form input[type="reset"] {
+  width: 116px;
+  height: 34px;
+  border: 0;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 23px;
+  color: #6d6d6d;
+  padding-top: 5px;
+  margin: 40px -11px 10px 106px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: url("../../imagens/btn.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 560, ../sass/_geral.sass */
+#solicitante .box-form input[type="submit"]:hover, #solicitante .box-form input[type="reset"]:hover {
+  background: url("../../imagens/btn-hover.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+/* line 567, ../sass/_geral.sass */
+#parceiro {
+  width: 100%;
+  height: 983px;
+  float: left;
+  background: url("../../imagens/bg-parceiro.png") no-repeat center;
+}
+/* line 573, ../sass/_geral.sass */
+#parceiro .box-form {
+  width: 550px;
+  height: auto;
+  float: left;
+  margin-top: 120px;
+}
+/* line 580, ../sass/_geral.sass */
+#parceiro table tr {
+  min-height: 37px;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  color: white;
+  text-align: right;
+}
+/* line 587, ../sass/_geral.sass */
+#parceiro table tr td {
+  width: 120px;
+  padding: 0 5px 0 0;
+}
+/* line 591, ../sass/_geral.sass */
+#parceiro table p {
+  width: auto;
+  font-family: "Myriad Pro";
+  text-align: left;
+  color: white;
+  font-size: 12px;
+  float: left;
+  margin-top: 0;
+  line-height: 0;
+}
+/* line 602, ../sass/_geral.sass */
+#parceiro table span {
+  text-align: left;
+  padding-right: 10px;
+}
+/* line 606, ../sass/_geral.sass */
+#parceiro input[type="text"] {
+  width: 100%;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  padding: 10px;
+  color: #7e7e7e;
+}
+/* line 616, ../sass/_geral.sass */
+#parceiro select {
+  width: 133px;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 0 5px 0 5px;
+}
+/* line 627, ../sass/_geral.sass */
+#parceiro input[type="file"] {
+  width: 144px;
+  height: 29px;
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 635, ../sass/_geral.sass */
+#parceiro .btn-div {
+  width: 133px;
+  height: 23px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 4px 5px 0 5px;
+  cursor: pointer;
+}
+/* line 647, ../sass/_geral.sass */
+#parceiro textarea {
+  width: 440px;
+  height: 99px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 5px 5px 0 5px;
+}
+/* line 657, ../sass/_geral.sass */
+#parceiro input[type="text"] {
+  width: 416px;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  padding: 10px;
+  color: #7e7e7e;
+  margin: 5px 0 5px 0;
+}
+/* line 668, ../sass/_geral.sass */
+#parceiro textarea {
+  width: 468px;
+  height: 99px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 5px 5px 0 5px;
+  margin: 10px 0 5px 0;
+}
+/* line 679, ../sass/_geral.sass */
+#parceiro p {
+  width: auto;
+  font-family: "Myriad Pro";
+  color: #00243f;
+  font-size: 12px;
+  float: left;
+  margin-top: 0;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+/* line 689, ../sass/_geral.sass */
+#parceiro .titulo {
+  width: 90%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 24px;
+  color: #00243f;
+  text-transform: uppercase;
+  margin: 20px 0 16px 129px;
+}
+/* line 698, ../sass/_geral.sass */
+#parceiro input[type="submit"], #parceiro input[type="reset"] {
+  width: 116px;
+  height: 34px;
+  border: 0;
+  float: right;
+  font-family: "kleptocracyregular";
+  font-size: 23px;
+  color: #6d6d6d;
+  padding-top: 5px;
+  margin: 10px -11px 10px 26px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: url("../../imagens/btn.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 716, ../sass/_geral.sass */
+#parceiro input[type="submit"]:hover, #parceiro input[type="reset"]:hover {
+  background: url("../../imagens/btn-hover.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 723, ../sass/_geral.sass */
+#parceiro p {
+  width: 100%;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 30px;
+  color: #00243f;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 40px;
+}
+/* line 733, ../sass/_geral.sass */
+#parceiro .btn-parceiro {
+  width: 300px;
+  height: 36px;
+  float: left;
+  background: #002642;
+  border-radius: 6px;
+  margin: 30px 0 0 400px;
+  font-family: "kleptocracyregular";
+  font-size: 64px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 33px 0 0 0;
+}
+
+/* line 747, ../sass/_geral.sass */
+#contato {
+  width: 100%;
+  height: 971px;
+  float: left;
+  background: url("../../imagens/bg-contato.png") no-repeat center;
+}
+/* line 753, ../sass/_geral.sass */
+#contato input[type="submit"], #contato input[type="reset"] {
+  width: 116px;
+  height: 34px;
+  border: 0;
+  float: right;
+  font-family: "kleptocracyregular";
+  font-size: 23px;
+  color: #6d6d6d;
+  padding-top: 5px;
+  margin: 10px 3px 10px 26px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: url("../../imagens/btn.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 771, ../sass/_geral.sass */
+#contato input[type="submit"]:hover, #contato input[type="reset"]:hover {
+  background: url("../../imagens/btn-hover.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 778, ../sass/_geral.sass */
+#contato .icon-mapa {
+  width: 100%;
+  height: 105px;
+  float: left;
+  background: url("../../imagens/icon-mapa.png") no-repeat center;
+  margin-top: 20px;
+}
+/* line 785, ../sass/_geral.sass */
+#contato .titulo {
+  width: 100%;
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 61px;
+  color: #134f89;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 152px 0 0 0;
+}
+/* line 795, ../sass/_geral.sass */
+#contato .box {
+  width: 278px;
+  height: 435px;
+  float: left;
+  border-right: 1px solid #cacbce;
+  margin: 100px 0 0 0;
+}
+/* line 802, ../sass/_geral.sass */
+#contato .box-formulario {
+  width: 456px;
+  height: 435px;
+  float: left;
+  border-right: 1px solid #cacbce;
+  margin: 100px 0 0 0;
+  padding: 0 28px;
+}
+/* line 810, ../sass/_geral.sass */
+#contato .box-formulario input[type="text"] {
+  width: 452px;
+  height: 45px;
+  float: left;
+  background: white;
+  border: 1px solid #ced0d2;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+/* line 818, ../sass/_geral.sass */
+#contato .box-formulario textarea {
+  width: 452px;
+  height: 150px;
+  max-width: 452px;
+  max-height: 150px;
+  float: left;
+  background: white;
+  border: 1px solid #ced0d2;
+  padding: 10px 10px;
+}
+/* line 829, ../sass/_geral.sass */
+#contato .box-atendimento {
+  width: 252px;
+  height: 435px;
+  float: left;
+  border: 0;
+  margin: 100px 0 0 0;
+  padding: 0 28px;
+}
+/* line 837, ../sass/_geral.sass */
+#contato .box-atendimento .texto {
+  width: 220px;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 20px;
+  color: #6d6b6b;
+  text-align: center;
+  letter-spacing: -1px;
+  line-height: 27px;
+  margin-top: 20px;
+}
+/* line 848, ../sass/_geral.sass */
+#contato p {
+  width: 100%;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 37px;
+  color: #134f89;
+  text-align: left;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+}
+/* line 860, ../sass/_geral.sass */
+#contato span {
+  width: 100%;
+  float: left;
+  font-family: "Myriad Pro";
+  font-size: 21px;
+  color: #6d6b6b;
+  text-align: left;
+  line-height: 35px;
+  letter-spacing: -1px;
+  margin: 0 0 0 10px;
+}
+
+/* line 1, ../sass/_modal.sass */
+.sobra-modal {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 999999999999;
+  display: none;
+}
+
+/* line 9, ../sass/_modal.sass */
+#modal-solicitante {
+  width: 588px;
+  height: auto;
+  position: absolute;
+  z-index: 9999999999999999;
+  background: white;
+  border-radius: 6px;
+  left: 50%;
+  margin-left: -304px;
+  padding: 0 10px;
+  top: 3000px;
+  display: none;
+}
+/* line 24, ../sass/_modal.sass */
+#modal-solicitante form table tr {
+  min-height: 37px;
+  font-family: "Myriad Pro";
+  font-size: 12px;
+  color: #7e7e7e;
+  text-align: right;
+}
+/* line 30, ../sass/_modal.sass */
+#modal-solicitante form table tr td {
+  padding: 5px 5px 5px 0;
+}
+/* line 33, ../sass/_modal.sass */
+#modal-solicitante form table p {
+  font-family: "Myriad Pro";
+  text-align: right;
+  color: #7e7e7e;
+  font-size: 12px;
+  float: left;
+}
+/* line 40, ../sass/_modal.sass */
+#modal-solicitante form table span {
+  text-align: left;
+  padding-right: 10px;
+}
+/* line 44, ../sass/_modal.sass */
+#modal-solicitante form input[type="text"] {
+  width: 100%;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  padding: 10px;
+  color: #7e7e7e;
+}
+/* line 54, ../sass/_modal.sass */
+#modal-solicitante form select {
+  width: 133px;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 0 5px 0 5px;
+}
+/* line 65, ../sass/_modal.sass */
+#modal-solicitante form input[type="file"] {
+  width: 144px;
+  height: 29px;
+  position: absolute;
+  opacity: 0;
+  -moz-opacity: 0;
+  filter: alpha(opacity=0);
+}
+/* line 73, ../sass/_modal.sass */
+#modal-solicitante form .btn-div {
+  width: 133px;
+  height: 23px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  text-align: center;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 4px 5px 0 5px;
+  cursor: pointer;
+}
+/* line 85, ../sass/_modal.sass */
+#modal-solicitante form textarea {
+  width: 468px;
+  height: 99px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 5px 5px 0 5px;
+}
+
+/* line 96, ../sass/_modal.sass */
+#modal-parceiro {
+  width: 548px;
+  height: auto;
+  position: absolute;
+  z-index: 9999999999999999;
+  background: white;
+  border-radius: 6px;
+  left: 50%;
+  margin-left: -304px;
+  padding: 0 30px;
+  top: 3850px;
+  display: none;
+}
+/* line 109, ../sass/_modal.sass */
+#modal-parceiro input[type="text"] {
+  width: 416px;
+  height: 27px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  padding: 10px;
+  color: #7e7e7e;
+  margin: 10px 0 10px 0;
+}
+/* line 120, ../sass/_modal.sass */
+#modal-parceiro textarea {
+  width: 468px;
+  height: 99px;
+  float: left;
+  border: 1px solid #bcbec0;
+  border-radius: 5px;
+  background: #f4f5f5;
+  color: #7e7e7e;
+  padding: 5px 5px 0 5px;
+  margin: 10px 0 10px 0;
+}
+/* line 131, ../sass/_modal.sass */
+#modal-parceiro p {
+  width: auto;
+  font-family: "Myriad Pro";
+  color: #7e7e7e;
+  font-size: 12px;
+  float: left;
+  margin-top: 0;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+/* line 141, ../sass/_modal.sass */
+#modal-parceiro .titulo {
+  float: left;
+  font-family: "kleptocracyregular";
+  font-size: 24px;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  margin: 20px 0 16px 0;
+}
+/* line 149, ../sass/_modal.sass */
+#modal-parceiro input[type="submit"], #modal-parceiro input[type="reset"] {
+  width: 116px;
+  height: 34px;
+  border: 0;
+  float: right;
+  font-family: "kleptocracyregular";
+  font-size: 23px;
+  color: #6d6d6d;
+  padding-top: 5px;
+  margin: 0 -11px 10px 26px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: url("../../imagens/btn.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+/* line 167, ../sass/_modal.sass */
+#modal-parceiro input[type="submit"]:hover, #modal-parceiro input[type="reset"]:hover {
+  background: url("../../imagens/btn-hover.png") no-repeat;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+/* line 61, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+* html {
+  font-size: 93.75%;
+}
+
+/* line 64, ../../../../../../Users/Thiago/Desktop/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+html {
+  font-size: 15px;
+  line-height: 1.33333em;
+}
